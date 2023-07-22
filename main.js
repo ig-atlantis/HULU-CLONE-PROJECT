@@ -24,7 +24,7 @@ function closeLogin(){
     modalLogin.style.display = 'none';
 }
 
-function outsideClick(e){           /*event*/
+function outsideClick(e){          //event
     if(e.target == modalLogin)
     {
         closeLogin();
@@ -46,6 +46,7 @@ tvClose.addEventListener('click', closeTv);
 
 window.addEventListener('click', outsideClickTv);
 
+
 function openTv(){
     modalTv.style.display = 'block';
 }
@@ -54,7 +55,7 @@ function closeTv(){
     modalTv.style.display = 'none';
 }
 
-function outsideClickTv(e){         /*event*/
+function outsideClickTv(e){         //event
     if(e.target == modalTv)
     {
         closeTv();
