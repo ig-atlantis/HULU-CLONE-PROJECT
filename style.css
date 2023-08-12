@@ -111,7 +111,7 @@ h4{
         rgba(0,0,0,8e-5) 100% );
 }
 
-.header nav{
+.header nav {
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
@@ -296,18 +296,22 @@ h4{
 
 .categories .covers-1:hover{
     border: 5px solid rgb(148, 146, 146);
+    transform: scale(1.06, 1.06);
 }
 
 .categories .covers-2:hover{  
     border: 5px solid rgb(148, 146, 146);  
+    transform: scale(1.06, 1.06);
 }
 
 .categories .covers-3:hover{ 
-    border: 5px solid rgb(148, 146, 146);  
+    border: 5px solid rgb(148, 146, 146); 
+    transform: scale(1.06, 1.06); 
 }
 
 .categories .covers-4:hover{ 
-    border: 5px solid rgb(148, 146, 146);  
+    border: 5px solid rgb(148, 146, 146); 
+    transform: scale(1.06, 1.06); 
 }
 
 

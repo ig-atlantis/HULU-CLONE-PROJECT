@@ -40,6 +40,7 @@ const tvOpen = document.querySelector('.open-tv');
 
 const tvClose = document.querySelector('.close-tv');
 
+
 tvOpen.addEventListener('click', openTv);
 
 tvClose.addEventListener('click', closeTv);
